@@ -51,3 +51,14 @@ Low priority
 1. Design documentation should include wireframes and page flows
 1. All API endpoints should have tests
 1. All UI components should have tests
+
+# Design
+## Page sketch
+![Uploader wireframe sketch](uploader-ui-sketch.png?raw=true)
+## Page flows
+There is only one page. 
+
+1. Upon arrival, the user sees a gallery of any previously uploaded files. 
+1. When they click on the _Upload_ button, if they have not entered a file name, they get a OS-specific file chooser. 
+1. When they select files and close the chooser, upload begins. A "Loading..." message displays and the _Upload_ button is disabled. 
+1. When it is complete, the gallery displays again with the newest images first and the _Upload_ button re-enabled.
